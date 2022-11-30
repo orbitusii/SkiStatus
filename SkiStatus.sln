@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiStatus", "SkiStatus\SkiStatus\SkiStatus.csproj", "{F159616D-B4A4-48DC-8039-38A7EED626A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiStatus", "SkiStatus\SkiStatus\SkiStatus.csproj", "{F159616D-B4A4-48DC-8039-38A7EED626A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC73C0C2-F944-44D4-87AA-FA4675189E29} = {AC73C0C2-F944-44D4-87AA-FA4675189E29}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiStatus.Android", "SkiStatus\SkiStatus.Android\SkiStatus.Android.csproj", "{8A956E48-C576-4246-A89D-28B8245C15AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiStatus.Android", "SkiStatus\SkiStatus.Android\SkiStatus.Android.csproj", "{8A956E48-C576-4246-A89D-28B8245C15AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiStatus.Desktop", "SkiStatus\SkiStatus.Desktop\SkiStatus.Desktop.csproj", "{63085D86-9796-4478-9ADD-D2238BAD60FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiStatus.Desktop", "SkiStatus\SkiStatus.Desktop\SkiStatus.Desktop.csproj", "{63085D86-9796-4478-9ADD-D2238BAD60FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiStatus.iOS", "SkiStatus\SkiStatus.iOS\SkiStatus.iOS.csproj", "{2F051C81-D24E-485A-BA80-EC9A77CC12A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiStatus.iOS", "SkiStatus\SkiStatus.iOS\SkiStatus.iOS.csproj", "{2F051C81-D24E-485A-BA80-EC9A77CC12A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiStatus.Web", "SkiStatus\SkiStatus.Web\SkiStatus.Web.csproj", "{AF74D7CA-C2F0-415B-993F-65F985A4FB97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiStatus.Web", "SkiStatus\SkiStatus.Web\SkiStatus.Web.csproj", "{AF74D7CA-C2F0-415B-993F-65F985A4FB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiAPIs", "SkiStatus\SkiAPIs\SkiAPIs.csproj", "{AC73C0C2-F944-44D4-87AA-FA4675189E29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +44,10 @@ Global
 		{AF74D7CA-C2F0-415B-993F-65F985A4FB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF74D7CA-C2F0-415B-993F-65F985A4FB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF74D7CA-C2F0-415B-993F-65F985A4FB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC73C0C2-F944-44D4-87AA-FA4675189E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC73C0C2-F944-44D4-87AA-FA4675189E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC73C0C2-F944-44D4-87AA-FA4675189E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC73C0C2-F944-44D4-87AA-FA4675189E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
