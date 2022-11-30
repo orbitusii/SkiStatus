@@ -16,7 +16,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiStatus.iOS", "SkiStatus\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiStatus.Web", "SkiStatus\SkiStatus.Web\SkiStatus.Web.csproj", "{AF74D7CA-C2F0-415B-993F-65F985A4FB97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiAPIs", "SkiStatus\SkiAPIs\SkiAPIs.csproj", "{AC73C0C2-F944-44D4-87AA-FA4675189E29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiAPIs", "SkiStatus\SkiAPIs\SkiAPIs.csproj", "{AC73C0C2-F944-44D4-87AA-FA4675189E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiAPIs.Tests", "SkiStatus\SkiAPIs.Tests\SkiAPIs.Tests.csproj", "{E269AA7B-70EE-4E09-A304-4E7A228A3055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,10 @@ Global
 		{AC73C0C2-F944-44D4-87AA-FA4675189E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC73C0C2-F944-44D4-87AA-FA4675189E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC73C0C2-F944-44D4-87AA-FA4675189E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E269AA7B-70EE-4E09-A304-4E7A228A3055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E269AA7B-70EE-4E09-A304-4E7A228A3055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E269AA7B-70EE-4E09-A304-4E7A228A3055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E269AA7B-70EE-4E09-A304-4E7A228A3055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
