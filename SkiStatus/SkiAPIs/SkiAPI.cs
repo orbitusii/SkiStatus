@@ -2,17 +2,15 @@
 
 namespace SkiAPIs
 {
-    public static partial class SkiAPI
+    public static class SkiAPI
     {
         public static Interpreter GetInterpreter (APIFormat format)
         {
             return format switch
             {
-                APIFormat.Powdr => PowdrInterpreter,
+                APIFormat.Powdr => new Powdr(),
                 _ => throw new NotSupportedException($"APIFormat {format} is not supported") 
             };
         }
-
-        internal static Powdr PowdrInterpreter { get; set; } = new Powdr();
     }
 }
