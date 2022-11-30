@@ -33,11 +33,6 @@ namespace SkiAPIs.Formats
 
         }
 
-        public override Lift[] GetLifts()
-        {
-            throw new NotImplementedException();
-        }
-
         /// <summary>
         /// 
         /// </summary>
@@ -45,12 +40,17 @@ namespace SkiAPIs.Formats
         /// <exception cref="NotSupportedException"></exception>
         public override Mountain[] GetMountains()
         {
-            throw new NotSupportedException($"Powdr API response never has any mountain elements");
+            return mountains;
+        }
+
+        public override Lift[] GetLifts()
+        {
+            return Array.Empty<Lift>();
         }
 
         public override Trail[] GetTrails()
         {
-            throw new NotImplementedException();
+            return Array.Empty<Trail>();
         }
 
         public override Dictionary<string, string> GetTypeIdentifiers(SkiObjectType type)
